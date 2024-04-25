@@ -55,9 +55,6 @@
       }).then(function(data) {
         var dataJson = JSON.parse(data)
         resolve(dataJson[lastModel])
-
-
-
       }).catch(function () {
         console.log("加载配置失败")
         reject()

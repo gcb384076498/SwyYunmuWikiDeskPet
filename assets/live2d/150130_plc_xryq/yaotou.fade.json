@@ -1,0 +1,3765 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8016576940838931209
+  },
+  "m_Name": "yaotou.fade",
+  "MotionName": "Assets/GameAssets/live2dcharacter/150130_plc_xryq/action/yaotou.motion3.json",
+  "FadeInTime": 1.0,
+  "FadeOutTime": 1.0,
+  "ParameterIds": [
+    "PARAM_EYE_L_OPEN",
+    "PARAM_EYE_L_SMILE",
+    "PARAM_EYE_R_OPEN",
+    "PARAM_EYE_R_SMILE",
+    "PARAM_EYE_FORM",
+    "PARAM_EYEBALL_SCALE",
+    "PARAM_EYE_BALL_X",
+    "PARAM_EYE_BALL_Y",
+    "PARAM_BROW_L_Y",
+    "PARAM_BROW_R_Y",
+    "PARAM_BROW_L_X",
+    "PARAM_BROW_R_X",
+    "PARAM_BROW_L_ANGLE",
+    "PARAM_BROW_R_ANGLE",
+    "PARAM_BROW_L_FORM",
+    "PARAM_BROW_R_FORM",
+    "PARAM_BROW_SIWA",
+    "PARAM_MOUTH_FORM",
+    "PARAM_MOUTH_FORM2",
+    "PARAM_MOUTH_OPEN_Y",
+    "PARAM_CHEEK",
+    "PARAM_ANGLE_X",
+    "PARAM_ANGLE_Y",
+    "PARAM_ANGLE_Z",
+    "PARAM_BODY_ANGLE_X",
+    "PARAM_BODY_ANGLE_Y",
+    "PARAM_BODY_ANGLE_Z",
+    "PARAM_BREATH",
+    "PARAM_BODY_MAE",
+    "PARAM_KATA_L",
+    "PARAM_KATA_R",
+    "PARAM_ARM_L",
+    "PARAM_FOREARM_L",
+    "PARAM_HAND_L",
+    "PARAM_ARM_R",
+    "PARAM_FOREARM_R",
+    "PARAM_FOREARM_R_X",
+    "PARAM_HAND_R",
+    "PARAM_ARMS_KUMU",
+    "PARAM_ARM_CHANGE_L",
+    "PARAM_ARM_CHANGE_R",
+    "PARAM_ARMY_ON",
+    "PARAM_ARMY_Y",
+    "PARAM_ARMY_ROTATE",
+    "PARAM_FINGER_TH1",
+    "PARAM_FINGER_TH2",
+    "PARAM_FINGER_TH3",
+    "Param",
+    "Param2",
+    "Param3",
+    "Param4",
+    "Param5",
+    "Param6",
+    "PARAM_HAIR_SIDE_L",
+    "PARAM_HAIR_SIDE_L2",
+    "PARAM_HAIR_SIDE_R",
+    "PARAM_HAIR_SIDE_R2",
+    "PARAM_HAIR_BACK",
+    "PARAM_HAIR_BACK2",
+    "PARAM_SODE_L",
+    "PARAM_SODE_L2",
+    "PARAM_SODE_R",
+    "PARAM_SODE_R2",
+    "PARAM_KUMO",
+    "PARAM_KUMO2",
+    "PARAM_RYUUSU_SITA_L",
+    "PARAM_RYUUSU_SITA_L2",
+    "PARAM_RYUUSU_SITA_R",
+    "PARAM_RYUUSU_L",
+    "PARAM_RYUUSU_SITA_R2",
+    "PARAM_RYUUSU_L2",
+    "PARAM_RYUUSU_R",
+    "PARAM_RYUUSU_R2",
+    "PARAM_RYUUSU_NECK1",
+    "PARAM_RYUUSU_NECK2",
+    "PARAM_RIBBON",
+    "PARAM_RIBBON2",
+    "PARAM_SITA"
+  ],
+  "ParameterCurves": [
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.767,
+          "value": 1.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.267,
+          "value": 1.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.567,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.767,
+          "value": 1.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.267,
+          "value": 1.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.567,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.3,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.1,
+          "value": -0.2,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 0.4,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.433,
+          "value": -0.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.1,
+          "inSlope": 0.22800025,
+          "outSlope": 0.2250002,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.1,
+          "value": 0.2,
+          "inSlope": 0.2700003,
+          "outSlope": 0.27000034,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 0.4,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.433,
+          "value": 0.2,
+          "inSlope": -0.66350764,
+          "outSlope": -0.66666746,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.767,
+          "value": 0.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -0.8,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.267,
+          "value": 0.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.567,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.767,
+          "value": 0.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -0.8,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.267,
+          "value": 0.1,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.567,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.467,
+          "value": -18.248,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.067,
+          "value": 17.947,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.7,
+          "value": -20.829,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.333,
+          "value": 3.132,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.1,
+          "value": -7.789,
+          "inSlope": -4.56546,
+          "outSlope": -4.5655565,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.267,
+          "value": -9.426,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.133,
+          "value": 4.007,
+          "inSlope": 3.5745842,
+          "outSlope": 3.5732682,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.3,
+          "value": 5.418,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": -0.226,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.1,
+          "value": 2.145,
+          "inSlope": 4.2000046,
+          "outSlope": 4.1953773,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.267,
+          "value": 4.12,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.033,
+          "value": -0.919,
+          "inSlope": -0.734754,
+          "outSlope": -0.73250073,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.233,
+          "value": -1.211,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 0.702,
+          "inSlope": 0.85800093,
+          "outSlope": 0.8588814,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.233,
+          "value": 1.104,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.367,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.067,
+          "value": 0.167,
+          "inSlope": 0.17150907,
+          "outSlope": 0.1749573,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.233,
+          "value": 0.239,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.133,
+          "value": -1.224,
+          "inSlope": -0.6460729,
+          "outSlope": -0.6436372,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.233,
+          "value": -1.429,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.133,
+          "value": -1.248,
+          "inSlope": -0.68579066,
+          "outSlope": -0.680413,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.2,
+          "value": -1.458,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.133,
+          "value": -3.055,
+          "inSlope": -1.6284219,
+          "outSlope": -1.6281831,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.233,
+          "value": -3.577,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.267,
+          "value": -5.481,
+          "inSlope": -2.7063963,
+          "outSlope": -2.70667,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.167,
+          "value": -6.102,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.133,
+          "value": -3.046,
+          "inSlope": -1.7025611,
+          "outSlope": -1.7010326,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.2,
+          "value": -3.572,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.267,
+          "value": -5.441,
+          "inSlope": -2.9005554,
+          "outSlope": -2.903005,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.133,
+          "value": -6.082,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.267,
+          "value": 0.196,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.7,
+          "value": -0.366,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.333,
+          "value": 0.343,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.9,
+          "value": -0.259,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 0.16,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.4,
+          "value": 0.188,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.9,
+          "value": -0.364,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.467,
+          "value": 0.337,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.067,
+          "value": -0.287,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.667,
+          "value": 0.116,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.267,
+          "value": 0.196,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.7,
+          "value": -0.366,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.267,
+          "value": 0.338,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.867,
+          "value": -0.236,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.467,
+          "value": 0.171,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.367,
+          "value": 0.185,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.867,
+          "value": -0.379,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.467,
+          "value": 0.322,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": -0.261,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.6,
+          "value": 0.135,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.367,
+          "value": 0.334,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.867,
+          "value": -0.731,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.467,
+          "value": 0.685,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.033,
+          "value": -0.625,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.6,
+          "value": 0.34,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.467,
+          "value": 0.286,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.033,
+          "value": -0.598,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.6,
+          "value": 0.563,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.167,
+          "value": -0.536,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.633,
+          "value": 0.2,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.4,
+          "value": 0.152,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.933,
+          "value": -0.241,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.767,
+          "value": 0.274,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.433,
+          "value": -0.113,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.2,
+          "value": -0.059,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.667,
+          "value": 0.142,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.2,
+          "value": -0.229,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.0,
+          "value": 0.229,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.6,
+          "value": -0.056,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.467,
+          "value": 0.11,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.033,
+          "value": -0.227,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.833,
+          "value": 0.265,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.467,
+          "value": -0.095,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.233,
+          "value": -0.037,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.733,
+          "value": 0.116,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.3,
+          "value": -0.217,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.1,
+          "value": 0.242,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.667,
+          "value": -0.079,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.6,
+          "value": -0.441,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.467,
+          "value": 0.447,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.167,
+          "value": -0.47,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.333,
+          "value": 0.155,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.933,
+          "value": -0.429,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.7,
+          "value": 0.401,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.467,
+          "value": -0.299,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.168,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -0.216,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.767,
+          "value": 0.263,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.367,
+          "value": -0.164,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.3,
+          "value": -0.04,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.767,
+          "value": 0.162,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.3,
+          "value": -0.212,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.933,
+          "value": 0.251,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.633,
+          "value": -0.12,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.4,
+          "value": 0.167,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.933,
+          "value": -0.206,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.7,
+          "value": 0.261,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.4,
+          "value": -0.127,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.367,
+          "value": 0.163,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.767,
+          "value": -0.144,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.433,
+          "value": 0.284,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.967,
+          "value": -0.184,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.533,
+          "value": 0.147,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.533,
+          "value": 0.151,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.133,
+          "value": -0.2,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.9,
+          "value": 0.229,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.533,
+          "value": -0.077,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.433,
+          "value": 0.121,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.933,
+          "value": -0.104,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.6,
+          "value": 0.174,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.167,
+          "value": -0.16,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.667,
+          "value": 0.053,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.533,
+          "value": -0.118,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.267,
+          "value": 0.264,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.867,
+          "value": -0.201,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.467,
+          "value": 0.121,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.3,
+          "value": 0.054,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.767,
+          "value": -0.118,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.433,
+          "value": 0.219,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.1,
+          "value": -0.176,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.667,
+          "value": 0.073,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.467,
+          "value": 0.136,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.933,
+          "value": -0.13,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.533,
+          "value": 0.285,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.1,
+          "value": -0.177,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.6,
+          "value": 0.097,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.2,
+          "value": -0.053,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.7,
+          "value": 0.127,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.167,
+          "value": -0.118,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.767,
+          "value": 0.235,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.4,
+          "value": -0.171,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.4,
+          "value": 0.198,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": -0.231,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.8,
+          "value": 0.302,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.4,
+          "value": -0.274,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.167,
+          "value": -0.067,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.667,
+          "value": 0.198,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.233,
+          "value": -0.223,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.9,
+          "value": 0.282,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.567,
+          "value": -0.197,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.3,
+          "value": -0.054,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 0.8,
+          "value": 0.154,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.333,
+          "value": -0.132,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.967,
+          "value": 0.233,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 2.567,
+          "value": -0.116,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  ],
+  "ParameterFadeInTimes": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "ParameterFadeOutTimes": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "MotionLength": 3.0
+}

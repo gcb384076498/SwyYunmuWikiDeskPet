@@ -1,0 +1,85 @@
+{
+  "Version": 3,
+  "Name": "150110_tcyb_yz",
+  "FileReferences": {
+    "Moc": "150110_tcyb_yz.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "150110_tcyb_yz.physics3.json",
+    "Motions": {
+      "huishou": [
+        {
+          "File": "motions/huishou.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "kangqi": [
+        {
+          "File": "motions/kangqi.motion3.json"
+        }
+      ],
+      "koushao": [
+        {
+          "File": "motions/koushao.motion3.json"
+        }
+      ],
+      "maozi": [
+        {
+          "File": "motions/maozi.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "kaixin",
+        "File": "expressions/kaixin.exp3.json"
+      },
+      {
+        "Name": "shengqi",
+        "File": "expressions/shengqi.exp3.json"
+      },
+      {
+        "Name": "chijing",
+        "File": "expressions/chijing.exp3.json"
+      },
+      {
+        "Name": "zhayan",
+        "File": "expressions/zhayan.exp3.json"
+      },
+      {
+        "Name": "haixiu",
+        "File": "expressions/haixiu.exp3.json"
+      },
+      {
+        "Name": "nanguo",
+        "File": "expressions/nanguo.exp3.json"
+      },
+      {
+        "Name": "idle",
+        "File": "expressions/idle.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_R_OPEN",
+        "PARAM_EYE_L_OPEN"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y"
+      ]
+    }
+  ]
+}

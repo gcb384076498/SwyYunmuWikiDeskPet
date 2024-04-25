@@ -1,0 +1,1220 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6412996322005789604
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1497902644499280887
+  },
+  "m_Name": "",
+  "_rig": {
+    "SubRigs": [
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_HAIR_FRONT_L_1",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.996,
+            "Weight": 84.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 12.0
+            },
+            "Mobility": 0.91,
+            "Delay": 0.8,
+            "Acceleration": 1.48,
+            "Radius": 12.0
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_HAIR_FRONT_R_1",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.994,
+            "Weight": 93.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 8.4
+            },
+            "Mobility": 0.94,
+            "Delay": 0.8,
+            "Acceleration": 1.48,
+            "Radius": 8.4
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_HAIR_SIDE_L_1",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.5,
+            "Weight": 98.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "DestinationId": "PARAM_HAIR_SIDE_L_2",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.5,
+            "Weight": 94.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "DestinationId": "PARAM_HAIR_SIDE_L_3",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.5,
+            "Weight": 90.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 16.2
+            },
+            "Mobility": 0.87,
+            "Delay": 0.8,
+            "Acceleration": 1.5,
+            "Radius": 16.2
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 27.5
+            },
+            "Mobility": 0.89,
+            "Delay": 0.96,
+            "Acceleration": 1.0,
+            "Radius": 11.3
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 34.3
+            },
+            "Mobility": 0.97,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 6.8
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_HAIR_SIDE_R_1",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.6,
+            "Weight": 99.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "DestinationId": "PARAM_HAIR_SIDE_R_2",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.6,
+            "Weight": 90.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "DestinationId": "PARAM_HAIR_SIDE_R_3",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.6,
+            "Weight": 84.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 13.1
+            },
+            "Mobility": 0.88,
+            "Delay": 0.85,
+            "Acceleration": 1.5,
+            "Radius": 13.1
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 21.900002
+            },
+            "Mobility": 0.91,
+            "Delay": 0.9,
+            "Acceleration": 1.0,
+            "Radius": 8.8
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 27.500002
+            },
+            "Mobility": 0.96,
+            "Delay": 0.92,
+            "Acceleration": 1.0,
+            "Radius": 5.6
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_HAIR_BACK",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.997,
+            "Weight": 88.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 14.8
+            },
+            "Mobility": 0.88,
+            "Delay": 0.79,
+            "Acceleration": 1.5,
+            "Radius": 14.8
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_HAIR_LINE_1",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.994,
+            "Weight": 95.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 6.1
+            },
+            "Mobility": 0.96,
+            "Delay": 0.8,
+            "Acceleration": 1.5,
+            "Radius": 6.1
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 60.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 40.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_HAIR_SHADOW",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.989,
+            "Weight": 97.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 5.6
+            },
+            "Mobility": 0.95,
+            "Delay": 0.84,
+            "Acceleration": 1.47,
+            "Radius": 5.6
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_CLOUTH_ROPE_2",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.987,
+            "Weight": 31.0,
+            "SourceComponent": 2,
+            "IsInverted": 1
+          },
+          {
+            "DestinationId": "PARAM_CLOUTH_ROPE_1",
+            "ParticleIndex": 2,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.99,
+            "Weight": 54.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 8.0
+            },
+            "Mobility": 0.93,
+            "Delay": 0.8,
+            "Acceleration": 1.5,
+            "Radius": 8.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 16.0
+            },
+            "Mobility": 0.91,
+            "Delay": 0.98,
+            "Acceleration": 1.0,
+            "Radius": 8.0
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_NECK_LACE",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.991,
+            "Weight": 92.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 20.3
+            },
+            "Mobility": 0.98,
+            "Delay": 0.97,
+            "Acceleration": 0.97,
+            "Radius": 20.3
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_CLOTHES_L_1",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.994,
+            "Weight": 100.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "DestinationId": "PARAM_CLOTHES_L_2",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.993,
+            "Weight": 91.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 15.0
+            },
+            "Mobility": 0.86,
+            "Delay": 0.8,
+            "Acceleration": 1.5,
+            "Radius": 15.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 20.8
+            },
+            "Mobility": 0.95,
+            "Delay": 0.97,
+            "Acceleration": 1.0,
+            "Radius": 5.8
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_CLOTHES_R_1",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.991,
+            "Weight": 93.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          },
+          {
+            "DestinationId": "PARAM_CLOTHES_R_2",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.987,
+            "Weight": 97.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 12.9
+            },
+            "Mobility": 0.88,
+            "Delay": 0.8,
+            "Acceleration": 1.5,
+            "Radius": 12.9
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 19.599998
+            },
+            "Mobility": 0.98,
+            "Delay": 0.94,
+            "Acceleration": 1.0,
+            "Radius": 6.7
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      },
+      {
+        "Input": [
+          {
+            "SourceId": "PARAM_BODY_ANGLE_X",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 0,
+            "IsInverted": 0
+          },
+          {
+            "SourceId": "PARAM_BODY_ANGLE_Z",
+            "ScaleOfTranslation": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.0,
+            "Weight": 100.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Output": [
+          {
+            "DestinationId": "PARAM_CLOTHES_ACC",
+            "ParticleIndex": 1,
+            "TranslationScale": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "AngleScale": 0.996,
+            "Weight": 95.0,
+            "SourceComponent": 2,
+            "IsInverted": 0
+          }
+        ],
+        "Particles": [
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Mobility": 1.0,
+            "Delay": 1.0,
+            "Acceleration": 1.0,
+            "Radius": 0.0
+          },
+          {
+            "InitialPosition": {
+              "x": 0.0,
+              "y": 7.8
+            },
+            "Mobility": 0.88,
+            "Delay": 0.89,
+            "Acceleration": 1.47,
+            "Radius": 7.8
+          }
+        ],
+        "Normalization": {
+          "Position": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Maximum": 10.0,
+            "Minimum": -10.0,
+            "Default": 0.0
+          }
+        }
+      }
+    ],
+    "Gravity": {
+      "x": 0.0,
+      "y": -1.0
+    },
+    "Wind": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  }
+}

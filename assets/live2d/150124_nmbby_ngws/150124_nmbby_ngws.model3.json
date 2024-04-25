@@ -1,0 +1,99 @@
+{
+  "Version": 3,
+  "Name": "150124_nmbby_ngws",
+  "FileReferences": {
+    "Moc": "150124_nmbby_ngws.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "150124_nmbby_ngws.physics3.json",
+    "Motions": {
+      "banjiangshi": [
+        {
+          "File": "motions/banjiangshi.motion3.json"
+        }
+      ],
+      "diantou": [
+        {
+          "File": "motions/diantou.motion3.json"
+        }
+      ],
+      "guihun": [
+        {
+          "File": "motions/guihun.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "yaotang": [
+        {
+          "File": "motions/yaotang.motion3.json"
+        }
+      ],
+      "yaotou": [
+        {
+          "File": "motions/yaotou.motion3.json"
+        }
+      ],
+      "zuoguilian": [
+        {
+          "File": "motions/zuoguilian.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "lengmo",
+        "File": "expressions/lengmo.exp3.json"
+      },
+      {
+        "Name": "idle",
+        "File": "expressions/idle.exp3.json"
+      },
+      {
+        "Name": "haisao",
+        "File": "expressions/haisao.exp3.json"
+      },
+      {
+        "Name": "weiqu",
+        "File": "expressions/weiqu.exp3.json"
+      },
+      {
+        "Name": "kaixin",
+        "File": "expressions/kaixin.exp3.json"
+      },
+      {
+        "Name": "chijing",
+        "File": "expressions/chijing.exp3.json"
+      },
+      {
+        "Name": "shenmi",
+        "File": "expressions/shenmi.exp3.json"
+      },
+      {
+        "Name": "duqi",
+        "File": "expressions/duqi.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_L_OPEN",
+        "PARAM_EYE_R_OPEN"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y"
+      ]
+    }
+  ]
+}

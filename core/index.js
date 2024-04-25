@@ -6,14 +6,14 @@
   console.log("测试模式233")
   var defaultModel = {
     type: 'spine',
-    modelId: 'test_model'
+    modelId: '150154_hg_axhb_xuyuan'
   }
   var lastModel;
-  try {
-    lastModel = JSON.parse(localStorage.getItem('lastModel'))
-  } catch(e) {
+  var lastModelLocal = localStorage.getItem('lastModel')
+  if  (!lastModelLocal) {
     lastModel = defaultModel
-    console.log(e)
+  } else {
+    lastModel = lastModelLocal
   }
   console.log("当前模型", lastModel)
 })()

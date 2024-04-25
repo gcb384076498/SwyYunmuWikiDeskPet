@@ -15,5 +15,5 @@
     lastModel = defaultModel
     console.log(e)
   }
-  console.log("当前模型", lastModel["modelId"], lastModel["type"])
+  console.log("当前模型", lastModel)
 })()

@@ -1,0 +1,94 @@
+{
+  "Version": 3,
+  "Name": "100157_brqy",
+  "FileReferences": {
+    "Moc": "100157_brqy.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "100157_brqy.physics3.json",
+    "Motions": {
+      "buxie": [
+        {
+          "File": "motions/buxie.motion3.json"
+        }
+      ],
+      "diannaodai": [
+        {
+          "File": "motions/diannaodai.motion3.json"
+        }
+      ],
+      "diantou": [
+        {
+          "File": "motions/diantou.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "xiezi": [
+        {
+          "File": "motions/xiezi.motion3.json"
+        }
+      ],
+      "yaotou": [
+        {
+          "File": "motions/yaotou.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "chaofeng",
+        "File": "expressions/chaofeng.exp3.json"
+      },
+      {
+        "Name": "shengqi",
+        "File": "expressions/shengqi.exp3.json"
+      },
+      {
+        "Name": "haixiu",
+        "File": "expressions/haixiu.exp3.json"
+      },
+      {
+        "Name": "chijing",
+        "File": "expressions/chijing.exp3.json"
+      },
+      {
+        "Name": "wuyu",
+        "File": "expressions/wuyu.exp3.json"
+      },
+      {
+        "Name": "kaixin",
+        "File": "expressions/kaixin.exp3.json"
+      },
+      {
+        "Name": "idle",
+        "File": "expressions/idle.exp3.json"
+      },
+      {
+        "Name": "nanguo",
+        "File": "expressions/nanguo.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_L_OPEN",
+        "PARAM_EYE_R_OPEN"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y"
+      ]
+    }
+  ]
+}

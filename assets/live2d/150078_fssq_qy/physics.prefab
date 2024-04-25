@@ -1,0 +1,41 @@
+{
+	"type":"Live2D Physics",
+	"physics_hair":[
+		{
+			"label":"pangxie",
+			"setup":{
+				"length":0.3,
+				"regist":0.5,
+				"mass":0.1
+			},
+			"src":[
+				{
+					"id":"PARAM_BODY_ANGLE_X",
+					"ptype":"x",
+					"scale":0.008,
+					"weight":1
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_Y",
+					"ptype":"y",
+					"scale":0.007,
+					"weight":1
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_Z",
+					"ptype":"angle",
+					"scale":0.08,
+					"weight":1
+				}
+			],
+			"targets":[
+				{
+					"id":"ParamPangxie",
+					"ptype":"angle",
+					"scale":0.03,
+					"weight":0.7
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+  "Version": 3,
+  "Name": "100160_mzto_or",
+  "FileReferences": {
+    "Moc": "100160_mzto_or.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": "100160_mzto_or.physics3.json",
+    "Motions": {
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "idle",
+        "File": "expressions/idle.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_L_OPEN",
+        "PARAM_EYE_L_OPEN_1",
+        "PARAM_EYE_R_OPEN_1",
+        "PARAM_EYE_R_OPEN"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y_1",
+        "PARAM_MOUTH_OPEN_Y"
+      ]
+    }
+  ]
+}

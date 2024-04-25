@@ -1,0 +1,86 @@
+{
+  "Version": 3,
+  "Name": "100170_dmj",
+  "FileReferences": {
+    "Moc": "100170_dmj.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "100170_dmj.physics3.json",
+    "Motions": {
+      "diantou": [
+        {
+          "File": "motions/diantou.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "jianchi": [
+        {
+          "File": "motions/jianchi.motion3.json"
+        }
+      ],
+      "naotou": [
+        {
+          "File": "motions/naotou.motion3.json"
+        }
+      ],
+      "qiugan": [
+        {
+          "File": "motions/qiugan.motion3.json"
+        }
+      ],
+      "yaotou": [
+        {
+          "File": "motions/yaotou.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "idle",
+        "File": "expressions/idle.exp3.json"
+      },
+      {
+        "Name": "haixiu",
+        "File": "expressions/haixiu.exp3.json"
+      },
+      {
+        "Name": "kaixin",
+        "File": "expressions/kaixin.exp3.json"
+      },
+      {
+        "Name": "nanguo",
+        "File": "expressions/nanguo.exp3.json"
+      },
+      {
+        "Name": "chijing",
+        "File": "expressions/chijing.exp3.json"
+      },
+      {
+        "Name": "shengqi",
+        "File": "expressions/shengqi.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_R_OPEN",
+        "PARAM_EYE_L_OPEN"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y"
+      ]
+    }
+  ]
+}

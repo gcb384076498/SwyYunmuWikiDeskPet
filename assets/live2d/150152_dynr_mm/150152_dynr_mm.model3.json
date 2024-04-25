@@ -1,0 +1,72 @@
+{
+  "Version": 3,
+  "Name": "150152_dynr_mm",
+  "FileReferences": {
+    "Moc": "150152_dynr_mm.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "150152_dynr_mm.physics3.json",
+    "Motions": {
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "lingkou": [
+        {
+          "File": "motions/lingkou.motion3.json"
+        }
+      ],
+      "sikao": [
+        {
+          "File": "motions/sikao.motion3.json"
+        }
+      ],
+      "weiba": [
+        {
+          "File": "motions/weiba.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "idle",
+        "File": "expressions/idle.exp3.json"
+      },
+      {
+        "Name": "shengqi",
+        "File": "expressions/shengqi.exp3.json"
+      },
+      {
+        "Name": "chijing",
+        "File": "expressions/chijing.exp3.json"
+      },
+      {
+        "Name": "nanguo",
+        "File": "expressions/nanguo.exp3.json"
+      },
+      {
+        "Name": "daxiao",
+        "File": "expressions/daxiao.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_R_OPEN",
+        "PARAM_EYE_L_OPEN"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y"
+      ]
+    }
+  ]
+}

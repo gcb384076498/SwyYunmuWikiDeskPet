@@ -1,0 +1,123 @@
+{
+  "Version": 3,
+  "Name": "100160_mzto_kls",
+  "FileReferences": {
+    "Moc": "100160_mzto_kls.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": "100160_mzto_kls.physics3.json",
+    "Motions": {
+      "caokong_kls": [
+        {
+          "File": "motions/caokong_kls.motion3.json"
+        }
+      ],
+      "diantou_kls": [
+        {
+          "File": "motions/diantou_kls.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "idle1_10": [
+        {
+          "File": "motions/idle1_10.motion3.json"
+        }
+      ],
+      "idle1_13": [
+        {
+          "File": "motions/idle1_13.motion3.json"
+        }
+      ],
+      "idle1_16": [
+        {
+          "File": "motions/idle1_16.motion3.json"
+        }
+      ],
+      "idle1_5": [
+        {
+          "File": "motions/idle1_5.motion3.json"
+        }
+      ],
+      "idle1_kls": [
+        {
+          "File": "motions/idle1_kls.motion3.json"
+        }
+      ],
+      "sikao_kls": [
+        {
+          "File": "motions/sikao_kls.motion3.json"
+        }
+      ],
+      "xiemu_kls": [
+        {
+          "File": "motions/xiemu_kls.motion3.json"
+        }
+      ],
+      "yaotou_kls": [
+        {
+          "File": "motions/yaotou_kls.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "liulei_kls",
+        "File": "expressions/liulei_kls.exp3.json"
+      },
+      {
+        "Name": "shengqi_kls",
+        "File": "expressions/shengqi_kls.exp3.json"
+      },
+      {
+        "Name": "nanguo_kls",
+        "File": "expressions/nanguo_kls.exp3.json"
+      },
+      {
+        "Name": "chijing_kls",
+        "File": "expressions/chijing_kls.exp3.json"
+      },
+      {
+        "Name": "kaixin_kls",
+        "File": "expressions/kaixin_kls.exp3.json"
+      },
+      {
+        "Name": "shiran_kls",
+        "File": "expressions/shiran_kls.exp3.json"
+      },
+      {
+        "Name": "haixiu_kls",
+        "File": "expressions/haixiu_kls.exp3.json"
+      },
+      {
+        "Name": "idle",
+        "File": "expressions/idle.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_L_OPEN",
+        "PARAM_EYE_R_OPEN_1",
+        "PARAM_EYE_R_OPEN",
+        "PARAM_EYE_L_OPEN_1"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y",
+        "PARAM_MOUTH_OPEN_Y_1"
+      ]
+    }
+  ]
+}

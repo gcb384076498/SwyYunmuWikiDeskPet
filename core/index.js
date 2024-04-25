@@ -4,14 +4,15 @@
     return;
   }
   console.log("测试模式")
-  let defaultModel = {
+  var defaultModel = {
     type: 'spine',
     modelId: 'test_model'
   }
-  let lastModel = {}
+  var lastModel;
   try {
     lastModel = JSON.parse(localStorage.getItem('lastModel'))
   } catch(e) {
     lastModel = defaultModel
   }
+  console.log("当前模型", lastModel["modelId"], lastModel["type"])
 })()

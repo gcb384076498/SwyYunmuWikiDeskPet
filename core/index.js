@@ -27,6 +27,7 @@
 // }
 //
 (function() {
+  var BASE_URL = 'https://gcb384076498.github.io/SwyYunmuWikiDeskPet'
   function initialModel() {
     var defaultModel = {
       type: 'spine',
@@ -45,7 +46,7 @@
 
   function loadConfig(lastModel) {
     return new Promise(function(resolve, reject) {
-      fetch("../assets/index.json", {
+      fetch(BASE_URL+"/assets/index.json", {
         method: "GET",
         headers: {
           "Content-Type": "application/json"

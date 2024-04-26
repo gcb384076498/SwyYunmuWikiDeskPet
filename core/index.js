@@ -52,7 +52,7 @@
           "Content-Type": "application/json"
         }
       }).then(function(response) {
-        return response.json()
+        return response.text()
       }).then(function(data) {
         var dataJson = JSON.parse(data)
         resolve(dataJson[lastModel])

@@ -37,6 +37,8 @@
             modelId: modelName
         }
         localStorage.setItem('lastModel', JSON.stringify(configObj))
+        console.log("保存成功", configObj)
+        alert("保存成功")
     }
 
     if (!localStorage.getItem('test')) {
@@ -71,7 +73,7 @@
                 return
             }
             if (pets[modelName]) {
-                saveCurrentPet(pets[modelName], modelName)
+                saveCurrentPet(data[modelName], modelName)
                 window.location.reload()
             }
         })

@@ -60,7 +60,7 @@ function saveCurrentPet(config, modelName) {
         var p = document.createElement('p')
         p.append(createElement('option', {
             value: null,
-            selected: lastModel === null
+            selected: lastModel === null ? "selected" : null
         }, '--请选择--'))
         for (var i = 0; i < pets.length; i++) {
             p.append(createElement('option', {
@@ -68,7 +68,7 @@ function saveCurrentPet(config, modelName) {
                 selected: lastModel === JSON.stringify({
                     type: data[pets[i]]["model_type"] === 1 ? "spine" : "live2d",
                     modelId: pets[i]
-                })
+                }) ? "selected" : null
             }, data[pets[i]]["name"]))
         }
         changePet.onclick = function() {

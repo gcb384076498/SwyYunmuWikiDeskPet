@@ -51,9 +51,9 @@
         var pets = Object.keys(data)
         var p = document.createElement('p')
         p.append(createElement('option', {
-            value: '--请选择--',
+            value: null,
             selected: localStorage.getItem('lastModel') === null
-        }))
+        }, '--请选择--'))
         for (var i = 0; i < pets.length; i++) {
             p.append(createElement('option', {
                 value: pets[i],
@@ -61,7 +61,7 @@
                     type: pets[i]["model_type"] === 1 ? "spine" : "live2d",
                     modelId: pets[i]
                 })
-            }, pets[i]["name"]))
+            }, data[pets[i]]["name"]))
         }
         var selector = document.getElementById("pets")
         selector.innerHTML = p.innerHTML

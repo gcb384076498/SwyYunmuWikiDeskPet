@@ -74,10 +74,6 @@
                 window.location.reload()
             }
         })
-
-
-
-
         // 加载场景
     }).catch(function (error) {
         console.log("加载配置失败", error)

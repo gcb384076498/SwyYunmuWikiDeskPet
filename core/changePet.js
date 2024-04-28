@@ -1,5 +1,5 @@
 (function() {
-    var BASE_URL = 'https://gcb384076498.github.io/SwyYunmuWikiDeskPet'
+    var BASE_URL = 'https://gcb384076498.github.io/SwyAssets'
 
 
 

@@ -69,6 +69,7 @@
         selector.innerHTML = p.innerHTML
         selector.addEventListener('change', function (e) {
             var modelName = e.target.value
+            console.log("选择的模型是", modelName)
             if (modelName === '--请选择--') {
                 return
             }

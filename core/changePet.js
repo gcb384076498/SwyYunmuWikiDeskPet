@@ -21,11 +21,12 @@
         })
     }
 
-    function  createElement(tag, attrs) {
+    function  createElement(tag, attrs, innerText) {
         var element = document.createElement(tag)
         for (var attr in attrs) {
             element.setAttribute(attr, attrs[attr])
         }
+        element.innerText = innerText
         return element
     }
 
@@ -60,7 +61,7 @@
                     type: pets[i]["model_type"] === 1 ? "spine" : "live2d",
                     modelId: pets[i]
                 })
-            }))
+            }, pets[i]["name"]))
         }
         var selector = document.getElementById("pets")
         selector.innerHTML = p.innerHTML

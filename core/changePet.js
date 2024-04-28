@@ -5,7 +5,7 @@
 
     function listModel() {
         return new Promise(function(resolve, reject) {
-            fetch(BASE_URL+"/assets/index.json", {
+            fetch(BASE_URL+"/index.json", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json"

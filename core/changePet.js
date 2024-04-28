@@ -60,7 +60,7 @@
             p.append(createElement('option', {
                 value: pets[i],
                 selected: localStorage.getItem('lastModel') === JSON.stringify({
-                    type: pets[i]["model_type"] === 1 ? "spine" : "live2d",
+                    type: data[pets[i]]["model_type"] === 1 ? "spine" : "live2d",
                     modelId: pets[i]
                 })
             }, data[pets[i]]["name"]))
@@ -75,7 +75,7 @@
             }
             if (data[modelName]) {
                 saveCurrentPet(data[modelName], modelName)
-                window.location.reload()
+                // window.location.reload()
             }
         })
         // 加载场景

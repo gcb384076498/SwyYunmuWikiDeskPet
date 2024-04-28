@@ -52,19 +52,20 @@ function saveCurrentPet(config, modelName) {
     }
     console.log("测试模式233")
 
-
+    var lastModel = localStorage.getItem('lastModel')
+    console.log("lastModel", lastModel)
     listModel().then(function (data) {
         console.log("配置加载成功", data);
         var pets = Object.keys(data)
         var p = document.createElement('p')
         p.append(createElement('option', {
             value: null,
-            selected: localStorage.getItem('lastModel') === null
+            selected: lastModel === null
         }, '--请选择--'))
         for (var i = 0; i < pets.length; i++) {
             p.append(createElement('option', {
                 value: pets[i],
-                selected: localStorage.getItem('lastModel') === JSON.stringify({
+                selected: lastModel === JSON.stringify({
                     type: data[pets[i]]["model_type"] === 1 ? "spine" : "live2d",
                     modelId: pets[i]
                 })

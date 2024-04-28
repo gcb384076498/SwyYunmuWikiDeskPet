@@ -74,7 +74,7 @@
     if  (!lastModelLocal) {
       lastModel = defaultModel
     } else {
-      lastModel = lastModelLocal
+      lastModel = JSON.parse(lastModelLocal)
     }
     console.log("当前模型", lastModel)
     return lastModel

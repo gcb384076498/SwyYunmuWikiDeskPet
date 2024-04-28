@@ -14,7 +14,7 @@
                 return response.text()
             }).then(function(data) {
                 var dataJson = JSON.parse(data)
-                resolve(Object.keys(dataJson))
+                resolve(dataJson)
             }).catch(function (error) {
                 reject(error)
             })
@@ -29,6 +29,15 @@
         return element
     }
 
+
+    function saveCurrentPet(config, modelName) {
+        var configObj = {
+            type: config["model_type"] === 1 ? "spine" : "live2d",
+            modelId: modelName
+        }
+        localStorage.setItem('lastModel', JSON.stringify(configObj))
+    }
+
     if (!localStorage.getItem('test')) {
         console.log("非测试模式233")
         return;
@@ -38,17 +47,35 @@
 
     listModel().then(function (data) {
         console.log("配置加载成功", data);
+        var pets = Object.keys(data)
         var p = document.createElement('p')
         p.append(createElement('option', {
             value: '--请选择--',
-            selected: 'selected'
+            selected: localStorage.getItem('lastModel') === null
         }))
         for (var i = 0; i < data.length; i++) {
             p.append(createElement('option', {
                 value: data[i],
-                selected: 'selected'
+                selected: localStorage.getItem('lastModel') === JSON.stringify({
+                    type: data[i]["model_type"] === 1 ? "spine" : "live2d",
+                    modelId: data[i]
+                })
             }))
         }
+        var selector = document.getElementById("pets")
+        selector.innerHTML = p.innerHTML
+        selector.addEventListener('change', function (e) {
+            var modelName = e.target.value
+            if (modelName === '--请选择--') {
+                return
+            }
+            if (data[modelName]) {
+                saveCurrentPet(data[modelName], modelName)
+                window.location.reload()
+            }
+        })
+
+
 
 
         // 加载场景

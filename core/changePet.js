@@ -25,6 +25,9 @@ function listModel() {
 function  createElement(tag, attrs, innerText) {
     var element = document.createElement(tag)
     for (var attr in attrs) {
+        if (!attrs[attr]) {
+            continue
+        }
         element.setAttribute(attr, attrs[attr])
     }
     element.innerText = innerText

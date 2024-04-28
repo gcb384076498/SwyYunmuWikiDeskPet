@@ -73,7 +73,7 @@
             if (modelName === '--请选择--') {
                 return
             }
-            if (pets[modelName]) {
+            if (data[modelName]) {
                 saveCurrentPet(data[modelName], modelName)
                 window.location.reload()
             }

@@ -53,12 +53,12 @@
             value: '--请选择--',
             selected: localStorage.getItem('lastModel') === null
         }))
-        for (var i = 0; i < data.length; i++) {
+        for (var i = 0; i < pets.length; i++) {
             p.append(createElement('option', {
-                value: data[i],
+                value: pets[i],
                 selected: localStorage.getItem('lastModel') === JSON.stringify({
-                    type: data[i]["model_type"] === 1 ? "spine" : "live2d",
-                    modelId: data[i]
+                    type: pets[i]["model_type"] === 1 ? "spine" : "live2d",
+                    modelId: pets[i]
                 })
             }))
         }
@@ -69,8 +69,8 @@
             if (modelName === '--请选择--') {
                 return
             }
-            if (data[modelName]) {
-                saveCurrentPet(data[modelName], modelName)
+            if (pets[modelName]) {
+                saveCurrentPet(pets[modelName], modelName)
                 window.location.reload()
             }
         })
